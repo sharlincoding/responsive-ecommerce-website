@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&family=Satisfy&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+    color: black;
+
+}
+
+.navbar-brand:hover{
+    color: black;
+
+}
+
+.nav-link{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid rgb(248, 26, 92);
+}
+
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.main{
+    background-image :url('./Images/main.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 50% 50%;
+    height: 100vh;
+    width: 100%;
+}
+
+.main h1{
+    font-size: 4rem;
+    font-size: 700;
+    color: #f9ca24;
+}
+
+@media screen and (max-width:500px){
+    .main .project-title{
+        font-size: 2rem !important;
+    }
+}
+
+.main p{
+    text-shadow: -2px 4px 22px rgba(0,40,202,0.41);
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    color: bisque;
+}
+
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color:rgb(248, 26, 92) ;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.btn1:hover{
+    background-color:rgb(238, 31, 117) ;
+    transition: 0.5s ease;
+}
+
+h1{
+    font-weight: 700;
+}
+
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    transition: 0.5s;
+}
+
+.about img{
+    height: 292px;
+    background-size: cover;
+}
+
+.pose{
+    background: url('./Images/footer.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.pose h1{
+    font-family: 'Poppins', sans-serif;
+}
